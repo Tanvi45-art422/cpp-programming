@@ -7,5 +7,5 @@ int main()
     cin>> num1>>num2;
     sum=num1+num2;
     cout<< "Addition="<<sum;
-    return o;
+    return 0;
 }
