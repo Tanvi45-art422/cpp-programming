@@ -2,17 +2,14 @@
 using namespace std;
 int main()
 {
- int a,b,c;
+ int a,b;
  cout<<"Enter two numbers:";
- cin>>a>>b>>c;
-    if(a>b && a>c)
+ cin>>a>>b;
+    if(a>b)
     cout<<"Largest number= "<<a;
 
-    else if (b>c)
-    cout<<"Largest number= "<<b;
-
     else
-    cout<<"Largest number ="<<c;
+    cout<<"Largest number ="<<b;
     
     return 0;
 }
