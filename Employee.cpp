@@ -9,12 +9,12 @@ private:
  float salary;
 
 public:
-void accept()               0
-0             (
-    cout<<"Enter employeeID:";
+void accept()             
+{
+    cout<<"Enter Employee ID:";
     cin>>employeeID;
 
-    cout<<"Enter employee name";
+    cout<<"Enter Employee name";
     cin>>name;
 
     cout<<"Enter salary:";
@@ -24,16 +24,17 @@ void accept()               0
  void display()
  {
     cout<<"\nEmployee Details"<<endl;
-    cout<<"Employee ID:"<<EmployeeID <<endl;
+    cout<<"Employee ID:"<<employeeID <<endl;
     cout<<"Employee Name:"<<name<<endl;
     cout<<"Salary:"<<salary<<endl;
  }
 };
  int main()
  {
-    Employee e;
-    e.accept();
-    e.display();
+   Employee e;
+
+   e.accept();
+   e.display();
 
 
     return 0;
